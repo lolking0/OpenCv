@@ -5,6 +5,7 @@ import imutils      #image processing
 import cv2
 import math
 
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", help="path to the (optional) video file") #_StoreAction(option_strings=['-v', '--video'], dest='video', nargs=None, const=None, default=None, type=None, choices=None, help='path to the (optional) video file', metavar=None)
 ap.add_argument("-b", "--buffer", type=int, default=32, help="max buffer size") #_StoreAction(option_strings=['-b', '--buffer'], dest='buffer', nargs=None, const=None, default=32, type=<type 'int'>, choices=None, help='max buffer size', metavar=None)
